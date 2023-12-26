@@ -1,6 +1,7 @@
 from utils.data_ingestion import data_ingest
 from utils.data_transformation import data_transformer
 from utils.train import split, train, save_objs
+
 import os
 
 data_path = os.path.join(os.getcwd(), "data", "spamhamdata.csv")
